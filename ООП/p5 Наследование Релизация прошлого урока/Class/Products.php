@@ -21,8 +21,9 @@ class Products
     public function getProduct( )
     {
         return   "<hr><b>About Product:</b><br>
-                 Name: {$this->name}<br>
-                 Price:{$this->prise}";
+                 Name: \t {$this->name}<br>
+                 Price: \t {$this->prise}";
+
     }
 
     public function getName()

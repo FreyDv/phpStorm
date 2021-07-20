@@ -8,11 +8,11 @@ require_once('Class/ProdactNotebook.php');
 function debug($data){
     echo'<pre>' . print_r($data,1).'</pre>';
 }
-$book = new ProdactBook('Три Мушкитера',600);
-$netBook = new ProdactNotebook('Dell E6540', 50000);
+$book = new ProdactBook('Телепузики',600,99);
+$netBook = new ProdactNotebook('Dell E6540', 50000,'intel');
 
 debug($book);
 debug($netBook);
 
-echo $book->getProduct('book');
-echo $netBook->getProduct('notebook');
+echo $book->getProduct();
+echo $netBook->getProduct();
