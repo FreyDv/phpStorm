@@ -1,9 +1,9 @@
 <?php
 
 
-require_once('Class\Products.php');
-require_once('Class\ProdactBook.php');
-require_once('Class\ProdactNotebook.php');
+require_once('Class/Products.php');
+require_once('Class/ProdactBook.php');
+require_once('Class/ProdactNotebook.php');
 
 function debug($data){
     echo'<pre>' . print_r($data,1).'</pre>';
