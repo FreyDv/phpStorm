@@ -1,5 +1,5 @@
 <?php
-
+namespace p5\P;
 
 class Products
 {

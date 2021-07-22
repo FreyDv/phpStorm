@@ -1,5 +1,5 @@
 <?php
-
+namespace p6I;
 
 interface I3D
 {
