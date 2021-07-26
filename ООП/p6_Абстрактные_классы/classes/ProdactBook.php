@@ -1,10 +1,9 @@
 <?php
-namespace p6\PB;
-use p6\P\Products;
+namespace classes;
 
 class ProdactBook extends Products
 {
-    private $pages;
+    private int $pages;
 
     public function __construct($name, $prise, $pages = null)
     {
@@ -23,16 +22,27 @@ class ProdactBook extends Products
         $this->prise = $prise;
     }
 
-    public function setPages(mixed $pages): void
+    public function setPages(?int $pages): void
     {
+        if(is_int($pages)){
         $this->pages = $pages;
+        }
+
+    }
+    public function getPages() : int
+    {
+        return $this->pages;
     }
 
-    public function getProduct()
+    public function getProduct() :string
     {
+
         return "<hr><b>About Product:</b><br>
-                 Name: \t  {$this->name}<br>
-                 Price: \t {$this->prise}<br>
-                 Pages:    {$this->pages}<br>";
+                 Name: \t  " . $this->name . "<br>
+                 Price: \t " . $this->prise . "<br>
+                 Pages:  \t" . $this->getPages()         . '<br>';
+
     }
+
+
 }

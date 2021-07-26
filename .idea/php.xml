@@ -5,7 +5,7 @@
       <server host="127.0.0.1" id="e23d20d7-493a-41fb-b58e-ca0ce88f0574" name="OpenServer" use_path_mappings="true" />
     </servers>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
   <component name="PhpRuntimeConfiguration">
     <extensions>
       <extension name="FFI" enabled="true" />

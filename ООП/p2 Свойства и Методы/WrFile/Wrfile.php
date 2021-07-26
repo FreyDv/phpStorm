@@ -38,7 +38,7 @@ class Wrfile
         }
         switch ($p){
             case 1 :{
-                $x->path= __DIR__ ."/".self::$path_static;
+                $x->path= __DIR__ . "Wrfile.php/" .self::$path_static;
                 break;
             }
             case 2 :{
@@ -46,7 +46,7 @@ class Wrfile
                 break;
             }
             case 3 :{
-                $x->path= __DIR__ ."/".self::$path_static;
+                $x->path= __DIR__ . "Wrfile.php/" .self::$path_static;
                 $x->name= self::$name_static;
                 break;
             }

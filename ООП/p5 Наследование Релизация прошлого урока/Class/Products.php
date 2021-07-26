@@ -7,7 +7,7 @@ class Products
     public $prise;
 
 
-    public function __construct($name, $prise,)
+    public function __construct($name, $prise)
     {
         $this->name=$name;
         $this->prise =$prise;
