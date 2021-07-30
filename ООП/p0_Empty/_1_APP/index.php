@@ -1,5 +1,5 @@
 <?php
-namespace app;
+namespace _1_APP;
 // php composer-setup.php
 // если в тойже папке лежит файл composer-setup.php
 //
