@@ -1,0 +1,13 @@
+{
+  "require": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "_1_APP\\": "../_1_APP",
+      "_2_TRAITS\\": "../_2_TRAITS",
+      "_3_CLASSSES\\": "../_3_CLASSES",
+      "_4_INTERFACES\\": "../_4_INTERFACES"
+    }
+  }
+}

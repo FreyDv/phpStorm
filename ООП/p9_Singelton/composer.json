@@ -1,0 +1,12 @@
+{
+  "require": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "classes\\": "classes",
+      "Interface\\":"Interface",
+      "app\\": "app"
+    }
+  }
+}

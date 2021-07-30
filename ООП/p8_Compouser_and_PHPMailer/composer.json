@@ -1,0 +1,11 @@
+{
+  "require": {
+    "phpmailer/phpmailer": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "classes\\": "classes",
+      "Interface\\":"Interface"
+    }
+  }
+}

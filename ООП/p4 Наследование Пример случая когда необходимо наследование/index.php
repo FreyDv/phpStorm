@@ -13,3 +13,6 @@ debug($netBook);
 
 echo $book->getProduct('book');
 echo $netBook->getProduct('notebook');
+
+
+echo "hi";
